@@ -19,12 +19,12 @@ Hope you find this a useful little tool for your MIDI projects !
 2. Download MidiTempoConverter.jar
 
 ## Usage
-'java -jar MidiTempoConverter.jar file tempo [debug]
+'java -jar MidiTempoConverter.jar filename tempo [debug]
 
-Parameters:  
- file - Name of your file  
- tempo - New tempo (120 for example)  
- debug - Optional. Type debug at the end if you want to get a dump of all the midi events in the file  
+Params:  
+  filename - Name of your file  
+  tempo - New tempo (120 for example)  
+  debug - Optional. Type debug at the end if you want to get a dump of all the midi events in the file  
 
 ## Example Usage
 - File to be converted is 'Test.mid' placed in the same directory as the jar application file
