@@ -19,27 +19,29 @@ Hope you find this a useful little tool for your MIDI projects !
 2. Download MidiTempoConverter.jar
 
 ## Usage
-'java -jar MidiTempoConverter <file> <tempo> [debug]
+'java -jar MidiTempoConverter.jar file tempo [debug]
 
 Parameters:
-file - Name of your file
-tempo - New tempo (120 for example)
-debug - Optional. Type debug at the end if you want to get a dump of all the midi events in the file
+ file - Name of your file
+ tempo - New tempo (120 for example)
+ debug - Optional. Type debug at the end if you want to get a dump of all the midi events in the file
 
 ## Example Usage
 - File to be converted is 'Test.mid' placed in the same directory as the jar application file
 - It's existing tempo is 58
 - We want to change it to 120 whilst maintaining the original playback speed
 
-'java -jar MidiTempoConverter.jar Test.mid 120
-''
-'Midi Tempo Converter 1.0'
-'=========================='
-'Old Tempo: 58'
-'New Tempo: 120'
-'Updating MIDI Events'
-'Found Master Tempo (Set = 120)'
-'Saving Changes to the MIDI File'
-'Done!'
+```shell
+java -jar MidiTempoConverter.jar Test.mid 120
+
+Midi Tempo Converter 1.0
+==========================
+Old Tempo: 58
+New Tempo: 120
+Updating MIDI Events
+Found Master Tempo (Set = 120)
+Saving Changes to the MIDI File
+Done!'
+```
 
 Enjoy !
