@@ -21,7 +21,7 @@ Hope you find this a useful little tool for your MIDI projects !
 ## Usage
 'java -jar MidiTempoConverter.jar file tempo [debug]
 
-Parameters:
+Parameters:  
  file - Name of your file  
  tempo - New tempo (120 for example)  
  debug - Optional. Type debug at the end if you want to get a dump of all the midi events in the file  
